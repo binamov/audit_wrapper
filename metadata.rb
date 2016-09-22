@@ -1,7 +1,11 @@
 name 'audit_wrapper'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Bakh Inamov'
+issues_url 'https://github.com/binamov/audit_wrapper'
+source_url 'https://github.com/binamov/audit_wrapper/issues'
+maintainer_email 'b@chef.io'
 license 'all_rights'
 description 'Installs/Configures audit_wrapper'
 long_description 'Installs/Configures audit_wrapper'
 version '0.1.0'
+
+depends 'audit'
